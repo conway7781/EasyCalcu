@@ -1,0 +1,34 @@
+git clone https://github.com/your-username/simple-calculator.git
+cd simple-calculator
+# calculator.py
+
+def add(x, y):
+    return x + y
+
+def subtract(x, y):
+    return x - y
+
+if __name__ == "__main__":
+    num1 = float(input("Enter the first number: "))
+    num2 = float(input("Enter the second number: "))
+
+    print(f"Sum: {add(num1, num2)}")
+    print(f"Difference: {subtract(num1, num2)}")
+git add .
+git commit -m "Initial commit: add basic calculator script"
+git push origin main
+# Simple Calculator
+
+A basic calculator that can add and subtract numbers.
+
+## Usage
+
+Run the `calculator.py` script and follow the on-screen instructions to enter two numbers. The script will then display the sum and difference.
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and create a pull request with your improvements.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
